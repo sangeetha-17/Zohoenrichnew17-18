@@ -15,23 +15,23 @@ int main() {
    {
        if(s[i]!=' ')
        {
-           if(s[i]=='a')
+           if(s[i]=='a'||s[i]=='A')
            {
                count[0]++;
            }
-           else if(s[i]=='e')
+           else if(s[i]=='e'||s[i]=='E')
            {
                count[1]++;
            }
-           else if(s[i]=='i')
+           else if(s[i]=='i'||s[i]=='I')
            {
                count[2]++;
            }
-           else if(s[i]=='o')
+           else if(s[i]=='o'||s[i]=='O')
            {
                count[3]++;
            }
-           else if(s[i]=='u')
+           else if(s[i]=='u'||s[i]=='U')
            {
                count[4]++;
            }
